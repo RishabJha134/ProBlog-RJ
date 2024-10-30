@@ -3,9 +3,9 @@ import { useBlog } from "../Hooks";
 import { useParams } from "react-router-dom";
 import FullBlog from "../components/FullBlog";
 // @ts-ignore
-import ShimmerUI from "./../components/ShimmerUI";
+import ShimmerUI from "../components/ShimmerUI";
 // @ts-ignore
-import AppBar from "./../components/AppBar";
+import AppBar from "../components/AppBar";
 
 const Blog = () => {
   const { id } = useParams();

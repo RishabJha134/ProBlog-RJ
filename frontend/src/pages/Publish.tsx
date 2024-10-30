@@ -1,6 +1,4 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-// @ts-expect-error
-import Appbar from "../components/Appbar";
+import Appbar from "../components/AppBar";
 import axios from "axios";
 import { BACKEND_URL } from "../utils/config";
 import { ChangeEvent, useState } from "react";

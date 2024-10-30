@@ -1,10 +1,10 @@
 
 // @ts-ignore
-import AppBar from "./../components/AppBar";
+import AppBar from "../components/AppBar";
 import { BlogCard } from "../components/BlogCard";
 import { useBlogs } from "../Hooks";
 // @ts-ignore
-import { BlogSkeleton } from "./../components/BlogSkeleton";
+import { BlogSkeleton } from "../components/BlogSkeleton";
 
 const Blogs = () => {
   const { loading, blogs } = useBlogs();

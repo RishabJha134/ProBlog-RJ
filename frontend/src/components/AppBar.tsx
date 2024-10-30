@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Avatar } from "./BlogCard";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import { BACKEND_URL } from "./../utils/config";
+import { BACKEND_URL } from "../utils/config";
 import { FaReact } from "react-icons/fa"; // React icon
 
 const AppBar = () => {
