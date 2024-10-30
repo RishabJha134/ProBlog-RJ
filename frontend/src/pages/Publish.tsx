@@ -1,4 +1,5 @@
-// @ts-ignore
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// @ts-expect-error
 import Appbar from "../components/Appbar";
 import axios from "axios";
 import { BACKEND_URL } from "../utils/config";
