@@ -12,7 +12,7 @@ const Blog = () => {
   const { loading, blog } = useBlog({ id: id || "" });
   console.log(blog);
 
-  if (loading) {
+  if (loading || !blog) {
     return (
       <div>
         <AppBar />
@@ -27,7 +27,7 @@ const Blog = () => {
   }
   return (
     <div>
-      <FullBlog blog={blog as blogInput}></FullBlog>
+      <FullBlog blog={blog}></FullBlog>
     </div>
   );
 };
