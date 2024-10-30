@@ -1,5 +1,5 @@
 
-import { blogInput, useBlog } from "../Hooks";
+import { useBlog } from "../Hooks";
 import { useParams } from "react-router-dom";
 import FullBlog from "../components/FullBlog";
 // @ts-ignore
