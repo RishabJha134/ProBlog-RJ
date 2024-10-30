@@ -2,8 +2,6 @@
 
 A modern, secure, and performant full-stack blogging platform built with Hono, React, and TypeScript.
 
-![ProBlog Banner](https://raw.githubusercontent.com/RishabJha134/ProBlog-RJ/main/client/public/banner.png)
-
 ## 🌟 Live Demo
 
 Check out the live application: [ProBlog Live Demo](https://pro-blog-rj.vercel.app/signup)
